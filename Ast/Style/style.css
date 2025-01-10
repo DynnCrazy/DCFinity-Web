@@ -35,7 +35,7 @@ body {
 }
 
 a {
-    color: #006aff;
+    color: #003681;
 }
 
 .gradient-text {
@@ -145,6 +145,7 @@ a {
 
 .contkebijakan {
     margin: 20px;
+    text-align: justify;
 }
 
 .contkebijakan h1, h2, h3, p {
@@ -201,13 +202,16 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #00458b6f;;
+    background-color: #0052827e;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 #subcontdivmenud {
     padding-left: 10%;
     padding-right: 10%;
+}
+#exgteam {
+    color: white;
 }
 
 @media (max-width: 600px) {
@@ -222,11 +226,11 @@ a {
         position: fixed;
         left: 0px;
         top: 0px;
-        width: 50%;
+        width: 75%;
         z-index: 99999;
         margin-top: 80px;
         background-color: white;
-        background-color: #00a2ff;
+        background-color: #00aaff;
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
         color: #ffffff;
