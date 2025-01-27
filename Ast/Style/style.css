@@ -139,6 +139,10 @@ a {
     text-decoration: none;
 }
 
+.imgbadge {
+    width: 75px;
+}
+
 .contdescbot {
     width: 80%;
 }
@@ -150,6 +154,28 @@ a {
 
 .contkebijakan h1, h2, h3, p {
     margin: 10px;
+}
+
+.continfo {
+    margin: 20px;
+    text-align: justify;
+}
+
+.continfo h1, h2, h3, p {
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #00598256;
 }
 
 .dropdown-menu {
